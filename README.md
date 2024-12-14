@@ -65,6 +65,10 @@ At your disposal, you have the following:
 
 You can watch the demo of the project [here](./assets/demo.mp4)
 
+> [!WARNING]
+>
+> Your components and API responses should be typed.
+
 #### Mission 1
 
 - On the home page, you should add your first and last name. (the page is already created)
@@ -72,7 +76,7 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 - That page should have:
   - A header with the title "Harry Potter books"
   - A search bar that will allow the user to search for a book by its title.
-    - If the user types a title, the books that contain the title should be displayed.
+    - If the user types a title, the books that `includes` the typed title should be displayed.
     - If the user types an empty string, all the books should be displayed.
     - If the user types a title that doesn't exist, a message should be displayed: "No books found".
   - A `Badge` component that will display the number of books found.
@@ -88,6 +92,8 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 
 > [!NOTE]  
 > No pagination is required, you can display all the books at once.
+>
+> Your components and API responses should be typed.
 >
 > The design may be different from the demo, but the information should be displayed in a user-friendly way.
 >
