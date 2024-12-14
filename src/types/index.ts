@@ -1,3 +1,18 @@
+type Links = {
+  self: string;
+  current: string;
+};
+
+type Meta = {
+  pagination: {
+    current: number;
+    records: number;
+  };
+  copyright: string;
+  generated_at: string;
+};
+
+type RelationShip = { id: string; type: string };
 export interface Book {
   id: string;
   type: string;
@@ -14,10 +29,35 @@ export interface Book {
   };
   relationships: {
     chapters: {
-      data: { id: string; type: string }[];
+      data: RelationShip[];
     };
   };
   links: {
     self: string;
   };
 }
+
+export interface Chapter {
+  id: string;
+  type: string;
+  attributes: {
+    slug: string;
+    order: 1;
+    summary: string;
+    title: string;
+  };
+  relationships: {
+    book: {
+      data: RelationShip;
+    };
+  };
+  links: {
+    self: string;
+  };
+}
+
+export type Response<T> = {
+  data: T;
+  links: Links;
+  meta: Meta;
+};
