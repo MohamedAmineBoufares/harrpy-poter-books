@@ -1,1 +1,1 @@
-export const BASE_PATH = "https://api.potterdb.com/";
+export const BASE_PATH = "https://api.potterdb.com/v1";
