@@ -44,9 +44,16 @@ export function BookDetails({
         <h3 className="mb-4 text-2xl font-semibold">Chapters</h3>
         <Accordion type="single" collapsible className="w-full">
           {chapters.map((chapter) => (
-            <AccordionItem key={chapter.id} value={chapter.id}>
+            <AccordionItem
+              key={chapter.id}
+              value={chapter.id}
+              disabled={!chapter.attributes.summary}
+              className={
+                !chapter.attributes.summary ? "text-muted-foreground" : ""
+              }
+            >
               <AccordionTrigger>
-                Chapter {chapter.attributes.order}: {chapter.attributes.title}
+                Chapter {chapter.attributes.order}: {chapter.attributes.title}{" "}
               </AccordionTrigger>
               <AccordionContent>{chapter.attributes.summary}</AccordionContent>
             </AccordionItem>

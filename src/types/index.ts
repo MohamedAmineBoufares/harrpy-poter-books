@@ -43,7 +43,7 @@ export interface Chapter {
   attributes: {
     slug: string;
     order: 1;
-    summary: string;
+    summary: string | null;
     title: string;
   };
   relationships: {
