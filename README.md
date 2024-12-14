@@ -93,8 +93,6 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 > [!NOTE]  
 > No pagination is required, you can display all the books at once.
 >
-> Your components and API responses should be typed.
->
 > The design may be different from the demo, but the information should be displayed in a user-friendly way.
 >
 > Responsive design is **REQUIRED**.
