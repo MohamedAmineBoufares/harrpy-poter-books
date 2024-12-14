@@ -4,9 +4,11 @@ This is a simulation projects where will be fetching the data from the Harry Pot
 
 ## Technologies used
 
-- Next.js
-- Tailwind CSS
-- Axios
+- TypeScript: V 5.0.0
+- React: V 19.0.0
+- Next.js: V 15.1.0
+- Tailwind CSS: V 3.4.1
+- Axios: V 1.7.9
 
 ## How to run the project
 
