@@ -72,6 +72,9 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 - That page should have:
   - A header with the title "Harry Potter books"
   - A search bar that will allow the user to search for a book by its title.
+    - If the user types a title, the books that contain the title should be displayed.
+    - If the user types an empty string, all the books should be displayed.
+    - If the user types a title that doesn't exist, a message should be displayed: "No books found".
   - A `Badge` component that will display the number of books found.
   - The list of books fetched from the API in a `Card` component.
   - Each card should have the following information:
