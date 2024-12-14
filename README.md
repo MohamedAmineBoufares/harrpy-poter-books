@@ -63,7 +63,7 @@ At your disposal, you have the following:
 
 ### Requirements
 
-You can watch the demo of the project [here](./assets/demo.mp4)
+<video src="/assets/demo.mp4" width="320" height="240" controls></video>
 
 #### Mission 1
 
