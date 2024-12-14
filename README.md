@@ -90,6 +90,11 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 >
 > Responsive design is **REQUIRED**.
 
+> [!TIP]
+> Use the [`ShadCn`](https://ui.shadcn.com/docs/components) components to create the page.
+>
+> You already have `axios` installed to fetch the data from the API.
+
 #### Mission 2
 
 - You should create a page with the appropriate route to display the details of a book.
@@ -111,12 +116,22 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 >
 > Responsive design is **NOT required**. But it's **a plus** if you can make it responsive.
 
+> [!TIP]
+> Use the [`ShadCn`](https://ui.shadcn.com/docs/components) components to create the page.
+>
+> You already have `axios` installed to fetch the data from the API.
+
 ## Expected result
 
 Within 3 days, you should have a pull request with the following:
 
 - A branch with your first and last name. _(e.g. `john-doe`)_
 - The implementation of the two missions.
+
+> [!TIP]
+> You may delete the `assets` folder or the `demo.mp4` file before creating the pull request.
+>
+> This will make your pull request lighter.
 
 ## Good luck! 🚀
 
