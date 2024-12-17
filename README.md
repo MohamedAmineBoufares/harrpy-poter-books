@@ -51,6 +51,8 @@ pnpm install
 pnpm dev
 ```
 
+The project will be available at [http://localhost:3000](http://localhost:3000)
+
 ## Your mission
 
 Your mission, should you choose to accept it, is to fetch the data from the Harry Potter API and display it in a user-friendly way.
@@ -63,7 +65,7 @@ At your disposal, you have the following:
 
 ### Requirements
 
-You can watch the demo of the project [here](./assets/demo.mp4)
+You can see a live demo of the expected result here: [Click here](./assets/demo.mp4)
 
 > [!WARNING]
 >
@@ -93,7 +95,7 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 > [!NOTE]  
 > No pagination is required, you can display all the books at once.
 >
-> The design may be different from the demo, but the information should be displayed in a user-friendly way.
+> The design may not be pixel-perfect, but the information should be displayed in a user-friendly way.
 >
 > Responsive design is **REQUIRED**.
 
@@ -119,7 +121,7 @@ You can watch the demo of the project [here](./assets/demo.mp4)
 ![Home page](./assets/book-by-id.png)
 
 > [!NOTE]
-> The design may be different from the demo, but the information should be displayed in a user-friendly way.
+> The design may not be pixel-perfect, but the information should be displayed in a user-friendly way.
 >
 > Responsive design is **NOT required**. But it's **a plus** if you can make it responsive.
 
