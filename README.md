@@ -116,7 +116,8 @@ You can see a live demo of the expected result here: [Click here](./assets/demo.
   - The book description _(all of it)_
   - The book chapters in an `Accordion` component.
     - The title of the chapter is the `Accordion` title.
-    - Upon clicking on the chapter, the content of the chapter should be displayed. - If the chapter has no content, you should disable the `Accordion` and text color should be `gray`.
+    - Upon clicking on the chapter, the content of the chapter should be displayed.
+    - If the chapter has **no content**, you should `disable` the `Accordion` and the text color should be `gray`.
 
 ![Home page](./assets/book-by-id.png)
 
