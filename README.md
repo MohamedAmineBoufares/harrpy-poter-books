@@ -11,9 +11,8 @@ Please read the following instructions **carefully**.
   - [Technologies used](#technologies-used)
   - [How to run the project](#how-to-run-the-project)
   - [Your mission](#your-mission)
-    - [Requirements](#requirements)
-      - [Mission 1](#mission-1)
-      - [Mission 2](#mission-2)
+    - [Mission 1](#mission-1)
+    - [Mission 2](#mission-2)
   - [Expected result](#expected-result)
   - [Good luck! 🚀](#good-luck-)
 
@@ -62,14 +61,6 @@ At your disposal, you have the following:
 - The Harry Potter DB API: [Click here](https://docs.potterdb.com/apis/rest)
 - The API base URL: [Click here](./src/consts/index.ts)
 - You should browse the SadCn documentation to see how to use the needed components: [Click here](https://ui.shadcn.com/docs/components)
-
-### Requirements
-
-You can see a live demo of the expected result here: [Click here](./assets/demo.mp4)
-
-> [!WARNING]
->
-> Your components and API responses should be typed.
 
 #### Mission 1
 
@@ -137,11 +128,6 @@ Within 3 days, you should have a pull request with the following:
 
 - A branch with your first and last name. _(e.g. `john-doe`)_
 - The implementation of the two missions.
-
-> [!TIP]
-> You may delete the `assets` folder or the `demo.mp4` file before creating the pull request.
->
-> This will make your pull request lighter.
 
 ## Good luck! 🚀
 
