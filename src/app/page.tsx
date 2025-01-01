@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen w-full flex-col items-center justify-center gap-5">
       <h1 className="text-2xl">Welcome Wizard [FIRST_NAME] [LAST_NAME]</h1>
 
-      <Link href="/books">
+      <Link href="/books" prefetch>
         <Button>Log-in 🪄</Button>
       </Link>
     </main>

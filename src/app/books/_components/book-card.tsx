@@ -43,7 +43,7 @@ function BookCard({ book }: BookCardProps) {
             Released: {new Date(book.attributes.release_date).getFullYear()}
           </div>
         </div>
-        <Link href={`/books/${book.id}`}>
+        <Link prefetch href={`/books/${book.id}`}>
           <Button size="sm">View More</Button>
         </Link>
       </CardFooter>
